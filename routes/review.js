@@ -81,8 +81,9 @@ router.patch('/:id', (req, res, next) => {
 	new ReviewValidator(req, [
 		'token',
 		'id',
-		'name',
-		'ingredients'
+		'title',
+		'pros',
+		'cons'
 	]).validate().then(() => {
 		return new Review({
 			id: req.params.id,
