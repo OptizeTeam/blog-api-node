@@ -1,0 +1,35 @@
+{
+  "name": "blog-api-node",
+  "version": "1.0.0",
+  "description": "Serwer bloga",
+  "homepage": "https://github.com/OptizeTeam/blog-api-node#readme",
+  "bugs": {
+    "url": "https://github.com/OptizeTeam/blog-api-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OptizeTeam/blog-api-node.git"
+  },
+  "license": "ISC",
+  "author": "Optize sp. z o.o.",
+  "main": "app.js",
+  "scripts": {
+    "migrate": "node migrate",
+    "start": "node app"
+  },
+  "dependencies": {
+    "ajv": "^6.6.2",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.15.0",
+    "http-status-codes": "^1.3.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.42.0",
+    "slug": "^1.0.0",
+    "sqlite": "^3.0.0"
+  },
+  "devDependencies": {}
+}
